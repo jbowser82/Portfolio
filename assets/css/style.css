@@ -37,3 +37,28 @@ header {
     font-weight: lighter;
     font-size: 1.55vw;
   }
+
+  /* STARTS PAGE IMAGE */
+
+  .open-img {
+    background-image: url("../images/Header\ background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    f
+  }
+
+  .info {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #8a00ac;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
