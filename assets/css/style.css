@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.body {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     padding: 20px 35px;
     background-color: #8a00ac;
@@ -48,7 +53,16 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    f
+    height: 200px;
+  }
+
+  .open-img h2 {
+font-size: 30px;
+text-align: initial;
+color: #8a00ac;
+flex-wrap: wrap;
+justify-content: left;
+
   }
 
   .info {
